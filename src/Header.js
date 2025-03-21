@@ -1,35 +1,41 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-scroll";
 
-function Header() {
+const Header = () => {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
-      <Container>
-        <Navbar.Brand as={Link} to="/">Practice</Navbar.Brand>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="/login">Login/SignUp</Nav.Link>
-            <NavDropdown title="Products" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/create">Create Product</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/modify">
-                Modify Product
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/delete">Delete Product</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item as={Link} to="/All-Products">
-                All Products
-              </NavDropdown.Item>
-            </NavDropdown>
-          </Nav>
-        </Navbar.Collapse>
-      </Container>
-    </Navbar>
+    <header id="header" className="header dark-background d-flex flex-column">
+      <i className="header-toggle d-xl-none bi bi-list"></i>
+      <div className="profile-img">
+        <img src="/assets/bg1.jpeg" alt="Profile" className="img-fluid rounded-circle" />
+      </div>
+      <a href="/" className="logo d-flex align-items-center justify-content-center">
+        <h1 className="sitename">Muhammad Arbaz</h1>
+      </a>
+      <div className="social-links text-center">
+        <a href="https://www.facebook.com/share/gVDJLQgan7e9PP5x/" className="facebook">
+          <i className="bi bi-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/arbaz.rana/" className="instagram">
+          <i className="bi bi-instagram"></i>
+        </a>
+        <a href="https://github.com/Arbazra" className="github">
+          <i className="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/arbaz-rana/" className="linkedin">
+          <i className="bi bi-linkedin"></i>
+        </a>
+      </div>
+      <nav id="navmenu" className="navmenu">
+        <ul>
+          <li><Link to="about" smooth={true} duration={500}><i className="bi bi-person navicon"></i> Home</Link></li>
+          <li><Link to="skills" smooth={true} duration={500}><i className="bi bi-images navicon"></i> Skills</Link></li>
+          <li><Link to="portfolio" smooth={true} duration={500}><i className="bi bi-images navicon"></i> Portfolio</Link></li>
+          <li><Link to="services" smooth={true} duration={500}><i className="bi bi-hdd-stack navicon"></i> Services</Link></li>
+          <li><Link to="contact" smooth={true} duration={500}><i className="bi bi-envelope navicon"></i> Contact</Link></li>
+        </ul>
+      </nav>
+    </header>
   );
-}
+};
 
 export default Header;
