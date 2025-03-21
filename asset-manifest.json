@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/Arbazra/personal-portfolio/static/css/main.9a5c6096.css",
-    "main.js": "/Arbazra/personal-portfolio/static/js/main.4dda6763.js",
+    "main.css": "/Arbazra/personal-portfolio/static/css/main.731a95d2.css",
+    "main.js": "/Arbazra/personal-portfolio/static/js/main.a608930d.js",
     "static/js/453.acca0757.chunk.js": "/Arbazra/personal-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/p1.PNG": "/Arbazra/personal-portfolio/static/media/p1.27d57758e1354278ce7a.PNG",
+    "static/media/p2.PNG": "/Arbazra/personal-portfolio/static/media/p2.eb6f2da2d450188d863b.PNG",
+    "static/media/p3.PNG": "/Arbazra/personal-portfolio/static/media/p3.0a61144e10e44dd761f6.PNG",
+    "static/media/p4.PNG": "/Arbazra/personal-portfolio/static/media/p4.912b476341790ee7a3c4.PNG",
+    "static/media/bg1.jpeg": "/Arbazra/personal-portfolio/static/media/bg1.82d704ab311881187364.jpeg",
+    "static/media/bootstrap-icons.woff?": "/Arbazra/personal-portfolio/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/Arbazra/personal-portfolio/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
     "index.html": "/Arbazra/personal-portfolio/index.html",
-    "main.9a5c6096.css.map": "/Arbazra/personal-portfolio/static/css/main.9a5c6096.css.map",
-    "main.4dda6763.js.map": "/Arbazra/personal-portfolio/static/js/main.4dda6763.js.map",
+    "main.731a95d2.css.map": "/Arbazra/personal-portfolio/static/css/main.731a95d2.css.map",
+    "main.a608930d.js.map": "/Arbazra/personal-portfolio/static/js/main.a608930d.js.map",
     "453.acca0757.chunk.js.map": "/Arbazra/personal-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a5c6096.css",
-    "static/js/main.4dda6763.js"
+    "static/css/main.731a95d2.css",
+    "static/js/main.a608930d.js"
   ]
 }
